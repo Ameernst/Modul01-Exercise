@@ -122,7 +122,7 @@ switch (profesi) {
 
 // Ternary operator : condition ? nlai : nilai
 
-let validasi_email = Email.includes('@') ? "Email Benar" : "Email Salah"
+let validasi_email = email.includes(`@`) ? "Email Benar" : "Email Salah"
 
 
 ///// LOOP STATEMENT ////
@@ -131,3 +131,50 @@ let validasi_email = Email.includes('@') ? "Email Benar" : "Email Salah"
  * 2. DO... WHILE
  * 3. FOR LOOP
  */
+
+// WHILE ... LOOP
+/**
+ * while(condition){
+ *      // task
+ * }
+ */
+// Example :
+let count = 10;
+
+while (true){
+    console.log(count);
+    count--;
+if (count==0){
+    break;
+}
+};
+
+// DO... WHILE LOOP
+/**
+ * do{
+ *      // task
+ * }while(condition)
+ */
+// Example :
+count = 100;
+do{
+    count++;
+    console.log(count);
+}while (count <=103);
+
+// FOR LOOP
+/**
+ * for(statement_1;statement_2;statement_3){
+ *  // task
+ * }
+ * statement_1 / initialize :mendefinisikan nilai awal acuan looping
+ * statement_2 / condition :menentukan kondisi statement_1 sesuai atau tidak
+ * statement_3 / modification :merubah nilai dari statement_1 menyesuaikan statement_2
+ * 
+ */
+// Example :
+
+for(let i = 0;i<10;i++){
+    console.log("Student :",i);
+}
+
